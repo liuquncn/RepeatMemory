@@ -1,0 +1,38 @@
+
+	// RepeatMemory.idl : IDL source for RepeatMemory.exe
+//
+// This file will be processed by the MIDL tool to
+// produce the type library (RepeatMemory.tlb) and marshalling code.
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(6960EE7D-B3AC-4BF0-9B67-BFEA1DAED17B),
+	version(1.0),
+	helpstring("RepeatMemory 1.0 Type Library")
+]
+library RepeatMemoryLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
+
+/*
+
+	// RepeatMemory.idl : IDL source for RepeatMemory.exe
+//
+// This file will be processed by the MIDL tool to
+// produce the type library (RepeatMemory.tlb) and marshalling code.
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(FC6E7438-3ED2-4E65-A5BC-4D8E5C9A3CE4),
+	version(1.0),
+	helpstring("RepeatMemory 1.0 Type Library")
+]
+library RepeatMemoryLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
+
+*/

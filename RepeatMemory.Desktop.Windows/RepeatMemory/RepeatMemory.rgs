@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{3F1A1125-4F83-4B90-A061-D3EF1C797CC7} = s 'RepeatMemory'
+		'RepeatMemory.EXE'
+		{
+			val AppID = s {3F1A1125-4F83-4B90-A061-D3EF1C797CC7}
+		}
+	}
+}
